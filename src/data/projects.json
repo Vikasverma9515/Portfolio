@@ -1,0 +1,26 @@
+[
+  {
+    "title": "LinkMe",
+    "imageSrc": "projects/linkme.png",
+    "description": "A website to store and manage important links with added features like notes, recency sorting, and photo generation via API integration. Implemented authentication with hashing and session control for enhanced user security.",
+    "skills": ["Node.js", "Express.js", "PostgreSQL", "Firebase"],
+    "demo": "https://link-me-1.onrender.com",
+    "source": "https://github.com/Vikasverma9515/Link-Me"
+  },
+  {
+    "title": "GitHub Analyzer",
+    "imageSrc": "projects/githubanalyzer.png",
+    "description": "A web application that provides detailed analysis and visualization of GitHub repositories and user activities through GitHub's API integration. Data visualization implemented using Chart.js and D3.js to display repository statistics, commit patterns, and contribution trends.",
+    "skills": ["React", "Axios", "Chart.js", "D3.js"],
+    "demo": "https://git-hub-analyzer-orcin.vercel.app",
+    "source": "https://github.com/Vikasverma9515/GitHub-Analyzer"
+  },
+  {
+    "title": "JobNest",
+    "imageSrc": "projects/jobnest.png",
+    "description": "A job portal application that allows users to post jobs, search for opportunities, and apply seamlessly. Implemented authentication and user management using Clerk. Backend powered by Supabase for database management and real-time updates. Frontend built with React and ShadCN.",
+    "skills": ["React", "ShadCN", "Supabase", "Clerk"],
+    "demo": "https://jobnest-git-main-vikas-vermas-projects-7d58bfbb.vercel.app",
+    "source": "https://github.com/Vikasverma9515/JobNest"
+  }
+]
