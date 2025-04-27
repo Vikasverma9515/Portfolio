@@ -23,10 +23,11 @@ export const Hero = () => {
         className={styles.heroImg}
       /> */}
       <img
-  src="/assets/hero/heroImage3.png"
-  alt="Hero image of me"
-  className={styles.heroImg}
+  src="/hero/heroImage3.png"
+  alt="hero image of me"
+  className={styles.aboutImage}
 />
+
       <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />
     </section>

@@ -47,16 +47,27 @@
 //     </section>
 //   );
 // };
-
 import React from "react";
-
 import styles from "./Experience.module.css";
-import skills from "../../data/skills.json";
-import { getImageUrl } from "../../utils";
 
 export const Experience = () => {
   const techStack = [
     "HTML", "CSS", "JavaScript", "Node", "Express", "Supabase", "SQL", "React", "Figma", "Data Science", "ML"
+  ];
+
+  // Hardcoded skills array with image paths and titles
+  const skills = [
+    { title: "HTML", imageSrc: "/skills/html.png" },
+    { title: "CSS", imageSrc: "/skills/css.png" },
+    // { title: "JavaScript", imageSrc: "/skills/js.png" },
+    { title: "Node", imageSrc: "/skills/node.png" },
+    // { title: "Express", imageSrc: "/skills/express.png" },
+    { title: "Supabase", imageSrc: "/skills/supabase.png" },
+    // { title: "SQL", imageSrc: "/skills/sql.png" },
+    { title: "React", imageSrc: "/skills/react.png" },
+    { title: "Figma", imageSrc: "/skills/figma.png" },
+    // { title: "Data Science", imageSrc: "/skills/data-science.png" },
+    // { title: "ML", imageSrc: "/skills/ml.png" }
   ];
 
   return (
@@ -67,7 +78,7 @@ export const Experience = () => {
           {skills.filter((skill) => techStack.includes(skill.title)).map((skill, id) => (
             <div key={id} className={styles.skill}>
               <div className={styles.skillImageContainer}>
-                <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
+                <img src={skill.imageSrc} alt={skill.title} />
               </div>
               <p>{skill.title}</p>
             </div>

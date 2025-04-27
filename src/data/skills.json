@@ -25,10 +25,10 @@
   },
   {
     "title": "Figma",
-    "imageSrc": "skills/figma.png"
+    "imageSrc": "/skills/figma.png"
   },
   {
     "title": "Supabase",
-    "imageSrc": "skills/supabase.png"
+    "imageSrc": "/skills/supabase.png"
   }
 ]
